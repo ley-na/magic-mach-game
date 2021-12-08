@@ -4,27 +4,27 @@ import SingleCard from "./components/SingleCard";
 
 const cardImages = [
   {
-    "src": "/img/helmet-1.png",
+    "src": "/img/1.png",
     matched: false
   },
   {
-    "src": "/img/potion-1.png",
+    "src": "/img/2.png",
     matched: false
   },
   {
-    "src": "/img/ring-1.png",
+    "src": "/img/3.png",
     matched: false
   },
   {
-    "src": "/img/scroll-1.png",
+    "src": "/img/4.png",
     matched: false
   },
   {
-    "src": "/img/shield-1.png",
+    "src": "/img/5.png",
     matched: false
   },
   {
-    "src": "/img/sword-1.png",
+    "src": "/img/6.png",
     matched: false
   }
 ]
@@ -110,6 +110,9 @@ function App() {
         ))}
       </div>
       <p>Turns: {turns}</p>
+      <br/>
+      <br/>
+      <p><a className='credits' href='https://www.freepik.com/upklyak'>All vector by upklyak - www.freepik.com</a></p>
     </div>
   );
 }
